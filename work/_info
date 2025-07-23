@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vcomb_logic_tb
+!s110 1753212061
+!i10b 1
+!s100 TYM0A:@BUUXSm<LTA_DHE2
+IA<IhS3^e1liG^P3jaiG7]0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit
+w1753212058
+8C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/comb_logic_tb.v
+FC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/comb_logic_tb.v
+L0 5
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1753212061.000000
+!s107 C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/comb_logic_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/comb_logic_tb.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcontinous_1
+!s110 1753211907
+!i10b 1
+!s100 7ihRmLokGh[nUH8XPaiLg1
+I0Sdzn;5lX;ifNmHMkQ_dl2
+R0
+R1
+w1753211904
+Z5 8C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/continous_1.v
+Z6 FC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/continous_1.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1753211907.000000
+Z7 !s107 C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/continous_1.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/continous_1.v|
+!i113 1
+R3
+R4
+vcontinuous_1
+Z9 !s110 1753211802
+!i10b 1
+!s100 mWA:@8b=IRDW1>b@`VW2>3
+I_LbWicV`_K<caHY<oFm5Q2
+R0
+R1
+w1753211797
+R5
+R6
+L0 4
+R2
+r1
+!s85 0
+31
+Z10 !s108 1753211802.000000
+R7
+R8
+!i113 1
+R3
+R4
+vprocedural_1
+!s110 1753212027
+!i10b 1
+!s100 Ug0:l]7gbz4KKO?l18Kk_3
+IlHcb6aOKbHJ27b;?XfIYm0
+R0
+R1
+w1753212023
+8C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/procedural_1.v
+FC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/procedural_1.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1753212027.000000
+!s107 C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/procedural_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/procedural_1.v|
+!i113 1
+R3
+R4
+vstructural_1
+R9
+!i10b 1
+!s100 Ke6@ZUjiIe8@mkDJaK@CM0
+ILhPiK[XgjG`E25Lj9=[V>2
+R0
+R1
+w1753211067
+8C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/structural_1.v
+FC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/structural_1.v
+L0 4
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/structural_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/structural_1.v|
+!i113 1
+R3
+R4

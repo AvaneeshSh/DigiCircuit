@@ -1,0 +1,29 @@
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_bool_tb.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_bool_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comb_bool_tb
+
+Top level modules:
+	comb_bool_tb
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_cont_bool.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_cont_bool.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comb_cont_bool
+
+Top level modules:
+	comb_cont_bool
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool_nand.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool_nand.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comb_struct_bool_nand
+
+Top level modules:
+	comb_struct_bool_nand
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comb_struct_bool
+
+Top level modules:
+	comb_struct_bool
+
+} {} {}}

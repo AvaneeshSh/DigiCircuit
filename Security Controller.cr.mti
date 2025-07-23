@@ -1,0 +1,29 @@
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/procedural_1.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/procedural_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module procedural_1
+
+Top level modules:
+	procedural_1
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/structural_1.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/structural_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module structural_1
+
+Top level modules:
+	structural_1
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/continous_1.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/continous_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module continous_1
+
+Top level modules:
+	continous_1
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/comb_logic_tb.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/comb_logic_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comb_logic_tb
+
+Top level modules:
+	comb_logic_tb
+
+} {} {}}

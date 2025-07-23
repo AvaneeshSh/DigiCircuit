@@ -1,0 +1,27 @@
+`timescale 1ns/1ps
+
+module comb_bool_tb(output wire struct_out_bool, output wire struct_out_bool_nand, output wire struct_cont_bool);
+  reg clk;
+  reg [2:0] count;
+
+  wire y_struct, y_nand, y_cont;
+
+  initial begin
+    clk = 0;
+    count = 0;
+  end
+
+  always #5 clk = ~clk;
+  always @(posedge clk) count = count + 1;
+
+  comb_struct_bool UUT1(.A(count[2]), .B(count[1]), .C(count[0]), .Y(y_struct));
+
+  comb_struct_bool_nand UUT2(.A(count[2]), .B(count[1]), .C(count[0]), .Y(y_nand));
+
+  comb_cont_bool UUT3(.A(count[2]), .B(count[1]), .C(count[0]), .Y(y_cont));
+
+  assign struct_out_bool = y_struct;
+  assign struct_out_bool_nand = y_nand;
+  assign struct_cont_bool = y_cont;
+endmodule
+
