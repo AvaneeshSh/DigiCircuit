@@ -48,3 +48,5 @@ module comb_struct_bool_nand(
   nand (Y, or12, or34);
 
 endmodule
+
+
