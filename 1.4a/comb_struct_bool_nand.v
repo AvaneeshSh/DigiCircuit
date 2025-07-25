@@ -1,57 +1,50 @@
-module comb_struct_bool_nand( input A, input B, input C, output Y);
+module comb_struct_bool_nand(
+  input A,
+  input B,
+  input C,
+  output Y
+);
 
   wire nA, nB, nC;
-  wire t1, t2, t3, t4;
+  wire t1a, t1aa, t1b, t1bb;
+  wire t2a, t2aa, t2b, t2bb;
+  wire t3a, t3aa, t3b, t3bb;
+  wire t4a, t4aa, t4b, t4bb;
+
+  wire or12, or34;
 
   // Inverters
   nand (nA, A, A);
   nand (nB, B, B);
   nand (nC, C, C);
 
-  // ---- Term 1: AB'C' ----
-  wire t1a, t1b;
+  // Term 1: AB'C'
   nand (t1a, A, nB);
-  nand (t1a, t1a, t1a);
-  nand (t1b, t1a, nC);
-  nand (t1, t1b, t1b);
+  nand (t1aa, t1a, t1a);
+  nand (t1b, t1aa, nC);
+  nand (t1bb, t1b, t1b);
 
-  // ---- Term 2: AB'C ----
-  wire t2a, t2b;
-  nand (t2a, A, nB);       
-  nand (t2a, t2a, t2a);    
-  nand (t2b, t2a, C);      
-  nand (t2, t2b, t2b);     
+  // Term 2: AB'C
+  nand (t2a, A, nB);
+  nand (t2aa, t2a, t2a);
+  nand (t2b, t2aa, C);
+  nand (t2bb, t2b, t2b);
 
-  // ---- Term 3: ABC ----
-  wire t3a, t3b;
-  nand (t3a, A, B);        
-  nand (t3a, t3a, t3a);    
-  nand (t3b, t3a, C);      
-  nand (t3, t3b, t3b);     
+  // Term 3: ABC
+  nand (t3a, A, B);
+  nand (t3aa, t3a, t3a);
+  nand (t3b, t3aa, C);
+  nand (t3bb, t3b, t3b);
 
-  // ---- Term 4: A'BC' ----
-  wire t4a, t4b;
-  nand (t4a, nA, B);       
-  nand (t4a, t4a, t4a);    
-  nand (t4b, t4a, nC);     
-  nand (t4, t4b, t4b);     
+  // Term 4: A'BC'
+  nand (t4a, nA, B);
+  nand (t4aa, t4a, t4a);
+  nand (t4b, t4aa, nC);
+  nand (t4bb, t4b, t4b);
 
-  // ---- OR of 4 terms using NAND ----
-  // Y = t1 + t2 + t3 + t4 = ~(~t1 & ~t2 & ~t3 & ~t4)
-  wire nt1, nt2, nt3, nt4;
-  nand (nt1, t1, t1);
-  nand (nt2, t2, t2);
-  nand (nt3, t3, t3);
-  nand (nt4, t4, t4);
-
-  wire tmp1, tmp2;
-  nand (tmp1, nt1, nt2);
-  nand (tmp2, nt3, nt4);
-
-  wire tmp_final;
-  nand (tmp_final, tmp1, tmp2);
-
-  assign Y = tmp_final;
+  // OR stage using NAND only (fixed)
+  nand (or12, t1bb, t2bb);
+  nand (or34, t3bb, t4bb);
+  nand (Y, or12, or34);
 
 endmodule
-

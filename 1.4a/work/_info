@@ -9,23 +9,23 @@ z2
 cModel Technology
 dC:/intelFPGA/18.1
 vcomb_bool_tb
-Z0 !s110 1753247228
+Z0 !s110 1753384434
 !i10b 1
 !s100 He:lMFjf:ZFIG5UCc;?;W2
-I0BegYH272EOLizDcA8m<:0
+INeTF@8N`?E8cif1k@ReSe1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a
-w1753245149
-8C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_bool_tb.v
-FC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_bool_tb.v
+w1753384390
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_bool_tb.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_bool_tb.v
 L0 5
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1753247228.000000
-!s107 C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_bool_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_bool_tb.v|
+Z4 !s108 1753384434.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_bool_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_bool_tb.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
@@ -72,23 +72,23 @@ R4
 R5
 R6
 vcomb_struct_bool_nand
-!s110 1753249729
+!s110 1753384753
 !i10b 1
-!s100 D]P:GTdz]kgUcO22n>ag[2
-I:eIBh<XmOo<m:cZF2<Y2D2
+!s100 kn4>^]ZUGV=?E9Akb:MSm0
+IIlY;kFXR_Td:CNaI9YW6D0
 R1
 R2
-w1753249722
-8C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool_nand.v
-FC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool_nand.v
+w1753384741
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v
 L0 1
 R3
 r1
 !s85 0
 31
-!s108 1753249729.000000
-!s107 C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool_nand.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.4a/comb_struct_bool_nand.v|
+!s108 1753384753.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v|
 !i113 1
 R5
 R6
