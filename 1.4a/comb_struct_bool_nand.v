@@ -10,8 +10,9 @@ module comb_struct_bool_nand(
   wire t2a, t2aa, t2b, t2bb;
   wire t3a, t3aa, t3b, t3bb;
   wire t4a, t4aa, t4b, t4bb;
-
+  wire or1, or2, or3, or4;
   wire or12, or34;
+  wire orr12, orr34;
 
   // Inverters
   nand (nA, A, A);
@@ -42,11 +43,14 @@ module comb_struct_bool_nand(
   nand (t4b, t4aa, nC);
   nand (t4bb, t4b, t4b);
 
-  // OR stage using NAND only (fixed)
-  nand (or12, t1bb, t2bb);
-  nand (or34, t3bb, t4bb);
-  nand (Y, or12, or34);
+  nand(or1, t1bb, t1bb);
+  nand(or2, t2bb, t2bb);
+  nand(or3, t3bb, t3bb);
+  nand(or4, t4bb, t4bb);
+  nand(or12, or1, or2);
+  nand(or34, or3, or4);
+  nand(orr12, or12, or12);
+  nand(orr34, or34, or34);
+  nand (Y, orr12, orr34);
 
 endmodule
-
-
