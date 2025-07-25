@@ -72,13 +72,13 @@ R4
 R5
 R6
 vcomb_struct_bool_nand
-!s110 1753384753
+!s110 1753426096
 !i10b 1
 !s100 kn4>^]ZUGV=?E9Akb:MSm0
 IIlY;kFXR_Td:CNaI9YW6D0
 R1
 R2
-w1753384741
+w1753426087
 8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v
 FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v
 L0 1
@@ -86,7 +86,7 @@ R3
 r1
 !s85 0
 31
-!s108 1753384753.000000
+!s108 1753426096.000000
 !s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.4a\comb_struct_bool_nand.v|
 !i113 1
