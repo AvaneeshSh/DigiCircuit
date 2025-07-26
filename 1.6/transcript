@@ -1,0 +1,33 @@
+# Compile of ssd_driver.v was successful.
+# Compile of ssd_driver_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ssd_driver_tb
+# vsim -gui work.ssd_driver_tb 
+# Start time: 22:22:54 on Jul 25,2025
+# Loading work.ssd_driver_tb
+# Loading work.ssd_driver
+add wave -position insertpoint sim:/ssd_driver_tb/*
+run
+run
+add wave -position insertpoint sim:/ssd_driver_tb/*
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:24:04 on Jul 25,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 6
+vsim -gui work.ssd_driver_tb
+# vsim -gui work.ssd_driver_tb 
+# Start time: 22:24:20 on Jul 25,2025
+# Loading work.ssd_driver_tb
+# Loading work.ssd_driver
+add wave -position insertpoint sim:/ssd_driver_tb/*
+run
+run
+quit -sim
+# End time: 22:33:43 on Jul 25,2025, Elapsed time: 0:09:23
+# Errors: 0, Warnings: 2

@@ -1,0 +1,15 @@
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_driver.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\ssd_driver.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ssd_driver
+
+Top level modules:
+	ssd_driver
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_driver_tb.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\ssd_driver_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ssd_driver_tb
+
+Top level modules:
+	ssd_driver_tb
+
+} {} {}}
