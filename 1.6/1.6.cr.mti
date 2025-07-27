@@ -1,4 +1,4 @@
-C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_phone_number_tb.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\ssd_phone_number_tb.v}
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_phone_number_tb.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_phone_number_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ssd_phone_number_tb
 
@@ -19,7 +19,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ssd_driver_tb
 
-} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_phone_number.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\ssd_phone_number.v}
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/data_plexer_en.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_plexer_en
+
+Top level modules:
+	data_plexer_en
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_phone_number.v {1 {vlog -work work -stats=none C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/ssd_phone_number.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ssd_phone_number
 
