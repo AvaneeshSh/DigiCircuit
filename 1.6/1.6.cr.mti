@@ -19,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ssd_driver_tb
 
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/data_plexer_en_3x1x4_tb-project.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en_3x1x4_tb-project.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_plexer_en_3x1x4_tb
+
+Top level modules:
+	data_plexer_en_3x1x4_tb
+
 } {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/data_plexer_en.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module data_plexer_en

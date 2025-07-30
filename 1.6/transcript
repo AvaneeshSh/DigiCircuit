@@ -19,3 +19,7 @@ run
 # ** Note: $stop    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/data_plexer_en_3x1x4_tb-project.v(62)
 #    Time: 205 ns  Iteration: 0  Instance: /data_plexer_en_3x1x4_tb
 # Break in Module data_plexer_en_3x1x4_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/1.6/data_plexer_en_3x1x4_tb-project.v line 62
+quit -sim
+# End time: 22:37:48 on Jul 28,2025, Elapsed time: 35:01:46
+# Errors: 0, Warnings: 5
+# Compile of data_plexer_en_3x1x4_tb-project.v was successful.

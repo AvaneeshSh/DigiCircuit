@@ -1,0 +1,51 @@
+# Compile of Jkff.v was successful.
+# Compile of JKff_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.JKff_tb
+# vsim -gui work.JKff_tb 
+# Start time: 17:12:55 on Jul 29,2025
+# Loading work.JKff_tb
+# Loading work.JKff
+add wave -position insertpoint sim:/JKff_tb/*
+run
+# 10
+# 10
+# 01
+# 10
+# 00
+# 11
+run
+run
+run
+run
+run
+quit -sim
+# End time: 17:45:13 on Jul 29,2025, Elapsed time: 0:32:18
+# Errors: 0, Warnings: 8
+# Compile of Jkff.v was successful.
+# Compile of JKff_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.JKff_tb
+# vsim -gui work.JKff_tb 
+# Start time: 17:47:21 on Jul 29,2025
+# Loading work.JKff_tb
+# Loading work.JKff
+add wave -position insertpoint sim:/JKff_tb/*
+run
+# Time 20: JK = 10
+# Time 60: JK = 10
+# Time 80: JK = 11
+# Time 100: JK = 01
+run
+# Time 120: JK = 10 (reset low)
+# Time 150: JK = 00
+# Time 160: JK = 11
+# Time 180: JK = 01
+# ** Note: $finish    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.1/JKff_tb.v(43)
+#    Time: 200 ns  Iteration: 0  Instance: /JKff_tb
+# 1
+# Break in Module JKff_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.1/JKff_tb.v line 43
+run
+run
+# End time: 17:57:41 on Jul 29,2025, Elapsed time: 0:10:20
+# Errors: 0, Warnings: 2

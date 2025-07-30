@@ -33,23 +33,23 @@ Z5 !s108 1753641348.000000
 Z6 o-work work
 Z7 tCvgOpt 0
 vdata_plexer_en_3x1x4_tb
-!s110 1753641349
+!s110 1753767474
 !i10b 1
-!s100 6Ub=_g_RRhXea3eCSC16f0
+!s100 >KY3J9Y?`T?`;::8P7KYL3
 R1
-IS;XXkV3CK`fN<^4eV_08l1
+Im=LgbT1VIIIH`F_;FWfbB1
 R2
 R3
-w1753641343
+w1753641943
 8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en_3x1x4_tb-project.v
 FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en_3x1x4_tb-project.v
-!i122 24
-L0 7 59
+!i122 25
+L0 7 58
 R4
 r1
 !s85 0
 31
-R5
+!s108 1753767473.000000
 !s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en_3x1x4_tb-project.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\1.6\data_plexer_en_3x1x4_tb-project.v|
 !i113 1
