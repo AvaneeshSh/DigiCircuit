@@ -1,0 +1,15 @@
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.2/counter_nbit_updown-project.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.2\counter_nbit_updown-project.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_nbit_updown
+
+Top level modules:
+	counter_nbit_updown
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.2/counter_nbit_updown_tb-project.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.2\counter_nbit_updown_tb-project.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_nbit_updown_tb
+
+Top level modules:
+	counter_nbit_updown_tb
+
+} {} {}}

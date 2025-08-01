@@ -1,0 +1,51 @@
+# Compile of counter_nbit_updown-project.v was successful.
+# Compile of counter_nbit_updown_tb-project.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.counter_nbit_updown_tb
+# vsim -gui work.counter_nbit_updown_tb 
+# Start time: 21:25:36 on Jul 31,2025
+# Loading work.counter_nbit_updown_tb
+# Loading work.counter_nbit_updown
+add wave -position insertpoint sim:/counter_nbit_updown_tb/*
+run
+run
+run
+run
+run
+# ** Note: $stop    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.2/counter_nbit_updown_tb-project.v(69)
+#    Time: 430 ps  Iteration: 0  Instance: /counter_nbit_updown_tb
+# Break in Module counter_nbit_updown_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.2/counter_nbit_updown_tb-project.v line 69
+# Break key hit
+quit -sim
+# End time: 22:00:19 on Jul 31,2025, Elapsed time: 0:34:43
+# Errors: 0, Warnings: 6
+# Compile of counter_nbit_updown_tb-project.v was successful.
+vsim -gui work.counter_nbit_updown_tb
+# vsim -gui work.counter_nbit_updown_tb 
+# Start time: 22:00:33 on Jul 31,2025
+# Loading work.counter_nbit_updown_tb
+# Loading work.counter_nbit_updown
+add wave -position insertpoint sim:/counter_nbit_updown_tb/*
+run
+run
+quit -sim
+# End time: 22:03:50 on Jul 31,2025, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 2
+# Compile of counter_nbit_updown-project.v was successful.
+# Compile of counter_nbit_updown_tb-project.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.counter_nbit_updown_tb
+# vsim -gui work.counter_nbit_updown_tb 
+# Start time: 22:04:00 on Jul 31,2025
+# Loading work.counter_nbit_updown_tb
+# Loading work.counter_nbit_updown
+add wave -position insertpoint sim:/counter_nbit_updown_tb/*
+run
+run
+run
+run
+# ** Note: $stop    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.2/counter_nbit_updown_tb-project.v(73)
+#    Time: 350 ps  Iteration: 0  Instance: /counter_nbit_updown_tb
+# Break in Module counter_nbit_updown_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.2/counter_nbit_updown_tb-project.v line 73
+# End time: 22:10:56 on Jul 31,2025, Elapsed time: 0:06:56
+# Errors: 0, Warnings: 3
