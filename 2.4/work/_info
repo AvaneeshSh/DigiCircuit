@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vclk_divider
+!s110 1754203364
+!i10b 1
+!s100 I4HoZ?G>c03hfS9T:iYIz0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iigk>^QKlg7ohg@fe5C9Zo1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4
+w1754200050
+Z3 8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v
+Z4 FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v
+!i122 53
+L0 57 22
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1754203364.000000
+Z6 !s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vclock_divider
+Z10 !s110 1754205744
+!i10b 1
+!s100 8DbgiC3@;8[[DfZfFGbUT1
+R0
+IgReA9;Nbl_DI^PDIiaDIV3
+R1
+R2
+w1754205454
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v
+!i122 101
+L0 1 31
+R5
+r1
+!s85 0
+31
+Z11 !s108 1754205743.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v|
+!i113 1
+R8
+R9
+vclock_divider_tb
+!s110 1754203366
+!i10b 1
+!s100 XofoBzG???[H05_OVbc8O1
+R0
+IkJ6VdD`OZ:R4WMbM;MOFf1
+R1
+R2
+w1754201594
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider_tb.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider_tb.v
+!i122 57
+L0 8 37
+R5
+r1
+!s85 0
+31
+!s108 1754203366.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider_tb.v|
+!i113 1
+R8
+R9
+vcounter_nbit
+Z12 !s110 1754205743
+!i10b 1
+!s100 jiYmQJ6@EaIZQf452P85`0
+R0
+Ia^T[_1DAk:X?Y@;kdm54M3
+R1
+R2
+w1754205449
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\counter_nbit.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\counter_nbit.v
+!i122 100
+L0 1 20
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\counter_nbit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\counter_nbit.v|
+!i113 1
+R8
+R9
+vdata_plexer_en
+R10
+!i10b 1
+!s100 0AjTVSGGYjc;mbSiN4@4>2
+R0
+IDV3bbBkY>W^4dDac?4CD<3
+R1
+R2
+w1754205478
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v
+!i122 104
+L0 1 17
+R5
+r1
+!s85 0
+31
+Z13 !s108 1754205744.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v|
+!i113 1
+R8
+R9
+vtimer_60
+R10
+!i10b 1
+!s100 ScE;kSZiNlW2TSN1Z9aS:1
+R0
+I>J9kicboFDg46TCa4R`Pn3
+R1
+R2
+w1754205732
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60.v
+!i122 102
+L0 1 67
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60.v|
+!i113 1
+R8
+R9
+vtimer_60_tb
+R10
+!i10b 1
+!s100 ;MYim_^W_kU5W8P`R@;3j3
+R0
+I;Ze?5]R6DKJT4JaR3AoHQ0
+R1
+R2
+w1754203354
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60_tb.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60_tb.v
+!i122 103
+L0 3 37
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60_tb.v|
+!i113 1
+R8
+R9
+vtop_60
+R12
+!i10b 1
+!s100 3=E55;jP@^bn5LdTElV022
+R0
+IWe`M@]:Co1>W<C<A<?7jW3
+R1
+R2
+w1754205483
+R3
+R4
+!i122 98
+L0 1 54
+R5
+r1
+!s85 0
+31
+R11
+R6
+R7
+!i113 1
+R8
+R9
+vtop_60_tb
+R12
+!i10b 1
+!s100 m3M^9G4LOXkJUonIfW>=41
+R0
+IMI9dT5f9YVbN1n:86MMJm2
+R1
+R2
+w1754205495
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60_tb.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60_tb.v
+!i122 99
+L0 3 47
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60_tb.v|
+!i113 1
+R8
+R9

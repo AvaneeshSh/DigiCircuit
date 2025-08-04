@@ -1,0 +1,50 @@
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60_tb.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_60_tb
+
+Top level modules:
+	top_60_tb
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module timer_60
+
+Top level modules:
+	timer_60
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/data_plexer_en.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_plexer_en
+
+Top level modules:
+	data_plexer_en
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60_tb.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module timer_60_tb
+
+Top level modules:
+	timer_60_tb
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clock_divider
+
+Top level modules:
+	clock_divider
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\counter_nbit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_nbit
+
+Top level modules:
+	counter_nbit
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_60
+
+Top level modules:
+	top_60
+
+} {} {}}
