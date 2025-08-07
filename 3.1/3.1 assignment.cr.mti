@@ -1,0 +1,22 @@
+C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_struct.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_struct.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module waveform_gen_struct
+
+Top level modules:
+	waveform_gen_struct
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/Dff.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\Dff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Dff
+
+Top level modules:
+	Dff
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_behav.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_behav.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module waveform_gen_behav
+
+Top level modules:
+	waveform_gen_behav
+
+} {} {}}

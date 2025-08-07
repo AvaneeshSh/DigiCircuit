@@ -1,0 +1,514 @@
+$date
+	Tue Aug 05 11:52:12 2025
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module timer_minsec_tb $end
+$var wire 1 ! sec_low_digit [3] $end
+$var wire 1 " sec_low_digit [2] $end
+$var wire 1 # sec_low_digit [1] $end
+$var wire 1 $ sec_low_digit [0] $end
+$var wire 1 % sec_high_digit [2] $end
+$var wire 1 & sec_high_digit [1] $end
+$var wire 1 ' sec_high_digit [0] $end
+$var wire 1 ( min_low_digit [3] $end
+$var wire 1 ) min_low_digit [2] $end
+$var wire 1 * min_low_digit [1] $end
+$var wire 1 + min_low_digit [0] $end
+$var reg 1 , clk $end
+$var reg 1 - pause $end
+$var reg 1 . up_down $end
+$var wire 1 / enable $end
+$var wire 1 0 sec_low_dig_load $end
+$var wire 1 1 sec_low_dig_enable $end
+$var wire 1 2 sec_high_dig_load $end
+$var wire 1 3 min_low_dig_load $end
+
+$scope module CD_UUT $end
+$var parameter 32 4 CLK_DIV_INT $end
+$var parameter 32 5 WIDTH $end
+$var wire 1 6 clk $end
+$var wire 1 7 reset $end
+$var wire 1 8 pause $end
+$var reg 1 9 rco_enable $end
+$var wire 1 : count [2] $end
+$var wire 1 ; count [1] $end
+$var wire 1 < count [0] $end
+
+$scope module cntr $end
+$var parameter 32 = WIDTH $end
+$var wire 1 6 clk $end
+$var wire 1 7 reset $end
+$var wire 1 > enable $end
+$var wire 1 ? data [2] $end
+$var wire 1 @ data [1] $end
+$var wire 1 A data [0] $end
+$var wire 1 B load $end
+$var wire 1 C up_down $end
+$var reg 3 D count [2:0] $end
+$upscope $end
+$upscope $end
+
+$scope module UUT $end
+$var wire 1 E clk $end
+$var wire 1 / enable $end
+$var wire 1 F up_down $end
+$var wire 1 ! sec_low_digit [3] $end
+$var wire 1 " sec_low_digit [2] $end
+$var wire 1 # sec_low_digit [1] $end
+$var wire 1 $ sec_low_digit [0] $end
+$var wire 1 % sec_high_digit [2] $end
+$var wire 1 & sec_high_digit [1] $end
+$var wire 1 ' sec_high_digit [0] $end
+$var wire 1 ( min_low_digit [3] $end
+$var wire 1 ) min_low_digit [2] $end
+$var wire 1 * min_low_digit [1] $end
+$var wire 1 + min_low_digit [0] $end
+$var reg 1 G sec_low_load $end
+$var reg 1 H sec_high_load $end
+$var reg 1 I min_low_load $end
+$var reg 1 J sec_high_enable $end
+$var reg 1 K min_low_enable $end
+
+$scope module SEC_LOW $end
+$var parameter 32 L WIDTH $end
+$var wire 1 E clk $end
+$var wire 1 M reset $end
+$var wire 1 / enable $end
+$var wire 1 N data [3] $end
+$var wire 1 O data [2] $end
+$var wire 1 P data [1] $end
+$var wire 1 Q data [0] $end
+$var wire 1 R load $end
+$var wire 1 F up_down $end
+$var reg 4 S count [3:0] $end
+$upscope $end
+
+$scope module SEC_HIGH $end
+$var parameter 32 T WIDTH $end
+$var wire 1 E clk $end
+$var wire 1 U reset $end
+$var wire 1 V enable $end
+$var wire 1 W data [2] $end
+$var wire 1 X data [1] $end
+$var wire 1 Y data [0] $end
+$var wire 1 Z load $end
+$var wire 1 F up_down $end
+$var reg 3 [ count [2:0] $end
+$upscope $end
+
+$scope module MIN_LOW $end
+$var parameter 32 \ WIDTH $end
+$var wire 1 E clk $end
+$var wire 1 ] reset $end
+$var wire 1 ^ enable $end
+$var wire 1 _ data [3] $end
+$var wire 1 ` data [2] $end
+$var wire 1 a data [1] $end
+$var wire 1 b data [0] $end
+$var wire 1 c load $end
+$var wire 1 F up_down $end
+$var reg 4 d count [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0,
+1-
+1.
+09
+bx D
+0G
+0H
+0I
+0J
+0K
+bx S
+bx [
+bx d
+b111 4
+b11 5
+b11 =
+b100 L
+b11 T
+b100 \
+0/
+00
+z1
+02
+03
+x<
+x;
+x:
+x$
+x#
+x"
+x!
+x'
+x&
+x%
+x+
+x*
+x)
+x(
+1F
+0E
+18
+07
+06
+1C
+0B
+0>
+1A
+0@
+0?
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0Z
+0Y
+0X
+0W
+0V
+0U
+0R
+0Q
+0P
+0O
+0N
+0M
+$end
+#5
+1,
+16
+1E
+#10
+0,
+06
+0E
+#15
+1,
+16
+1E
+#20
+0,
+06
+0E
+#25
+1,
+16
+1E
+#30
+0,
+06
+0E
+#35
+1,
+16
+1E
+#40
+0,
+06
+0E
+#45
+1,
+16
+1E
+#50
+0,
+06
+0E
+#55
+1,
+16
+1E
+#60
+0,
+06
+0E
+#65
+1,
+16
+1E
+#70
+0,
+06
+0E
+#75
+1,
+16
+1E
+#80
+0,
+06
+0E
+#85
+1,
+16
+1E
+#90
+0,
+06
+0E
+#95
+1,
+16
+1E
+#100
+0-
+0,
+08
+1>
+06
+0E
+#105
+1,
+16
+1E
+#110
+0,
+06
+0E
+#115
+1,
+16
+1E
+#120
+0,
+06
+0E
+#125
+1,
+16
+1E
+#130
+0,
+06
+0E
+#135
+1,
+16
+1E
+#140
+0,
+06
+0E
+#145
+1,
+16
+1E
+#150
+0,
+06
+0E
+#155
+1,
+16
+1E
+#160
+0,
+06
+0E
+#165
+1,
+16
+1E
+#170
+0,
+06
+0E
+#175
+1,
+16
+1E
+#180
+0,
+06
+0E
+#185
+1,
+16
+1E
+#190
+0,
+06
+0E
+#195
+1,
+16
+1E
+#200
+0,
+06
+0E
+#205
+1,
+16
+1E
+#210
+0,
+06
+0E
+#215
+1,
+16
+1E
+#220
+0,
+06
+0E
+#225
+1,
+16
+1E
+#230
+0,
+06
+0E
+#235
+1,
+16
+1E
+#240
+0,
+06
+0E
+#245
+1,
+16
+1E
+#250
+0,
+06
+0E
+#255
+1,
+16
+1E
+#260
+0,
+06
+0E
+#265
+1,
+16
+1E
+#270
+0,
+06
+0E
+#275
+1,
+16
+1E
+#280
+0,
+06
+0E
+#285
+1,
+16
+1E
+#290
+0,
+06
+0E
+#295
+1,
+16
+1E
+#300
+0,
+06
+0E
+#305
+1,
+16
+1E
+#310
+0,
+06
+0E
+#315
+1,
+16
+1E
+#320
+0,
+06
+0E
+#325
+1,
+16
+1E
+#330
+0,
+06
+0E
+#335
+1,
+16
+1E
+#340
+0,
+06
+0E
+#345
+1,
+16
+1E
+#350
+0,
+06
+0E
+#355
+1,
+16
+1E
+#360
+0,
+06
+0E
+#365
+1,
+16
+1E
+#370
+0,
+06
+0E
+#375
+1,
+16
+1E
+#380
+0,
+06
+0E
+#385
+1,
+16
+1E
+#390
+0,
+06
+0E
+#395
+1,
+16
+1E
+#400
+0,
+06
+0E

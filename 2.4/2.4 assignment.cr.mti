@@ -12,12 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	timer_60
 
-} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/data_plexer_en.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v}
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v {2 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module data_plexer_en
+-- Compiling module timer_minsec
+** Warning: C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec.v(24): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 
 Top level modules:
-	data_plexer_en
+	timer_minsec
 
 } {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60_tb.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_60_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -26,12 +27,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	timer_60_tb
 
-} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v}
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/data_plexer_en.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\data_plexer_en.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module clock_divider
+-- Compiling module data_plexer_en
 
 Top level modules:
-	clock_divider
+	data_plexer_en
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec_tb.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module timer_minsec_tb
+
+Top level modules:
+	timer_minsec_tb
+
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_60
+
+Top level modules:
+	top_60
 
 } {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\counter_nbit.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -40,11 +55,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	counter_nbit
 
-} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\top_60.v}
+} {} {}} C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v {1 {vlog -work work -stats=none {C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\clk_divider.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module top_60
+-- Compiling module clock_divider
 
 Top level modules:
-	top_60
+	clock_divider
 
 } {} {}}

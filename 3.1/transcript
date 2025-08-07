@@ -1,0 +1,59 @@
+# Compile of Dff.v was successful.
+# Compile of waveform_gen_struct.v was successful.
+# Compile of waveform_gen_behav.v failed with 2 errors.
+# Compile of waveform_gen_fsm_tb.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of Dff.v was successful.
+# Compile of waveform_gen_struct.v was successful.
+# Compile of waveform_gen_behav.v was successful.
+# Compile of waveform_gen_fsm_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.waveform_gen_fsm_tb
+# vsim -gui work.waveform_gen_fsm_tb 
+# Start time: 13:03:12 on Aug 07,2025
+# Loading work.waveform_gen_fsm_tb
+# Loading work.waveform_gen_behav
+add wave -position insertpoint sim:/waveform_gen_fsm_tb/*
+run
+# ** Note: $finish    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_fsm_tb.v(29)
+#    Time: 172 ns  Iteration: 0  Instance: /waveform_gen_fsm_tb
+# 1
+# Break in Module waveform_gen_fsm_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_fsm_tb.v line 29
+run
+add wave -position insertpoint sim:/waveform_gen_fsm_tb/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Note: $finish    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_fsm_tb.v(29)
+#    Time: 172 ns  Iteration: 0  Instance: /waveform_gen_fsm_tb
+# 1
+# Break in Module waveform_gen_fsm_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_fsm_tb.v line 29
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Note: $finish    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_fsm_tb.v(29)
+#    Time: 172 ns  Iteration: 0  Instance: /waveform_gen_fsm_tb
+# 1
+# Break in Module waveform_gen_fsm_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1/waveform_gen_fsm_tb.v line 29
+# Compile of Dff.v was successful.
+# Compile of waveform_gen_struct.v was successful.
+# Compile of waveform_gen_behav.v was successful.
+# Compile of waveform_gen_fsm_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.waveform_gen_fsm_tb
+# Loading work.waveform_gen_behav
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run

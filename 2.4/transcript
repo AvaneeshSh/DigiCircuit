@@ -1,297 +1,91 @@
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
+# Compile of timer_minsec.v was successful.
+# Compile of timer_minsec_tb.v was successful.
 # 2 compiles, 0 failed with no errors.
-vsim -gui work.top_60_tb
-# vsim -gui work.top_60_tb 
-# Start time: 21:29:06 on Aug 02,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# ** Error: (vsim-3033) Instantiation of 'clock_divider' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 19
-#         Searched libraries:
-#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
-# ** Error: (vsim-3033) Instantiation of 'timer_60' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 29
-#         Searched libraries:
-#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
-# ** Error: (vsim-3033) Instantiation of 'data_plexer_en' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 40
-#         Searched libraries:
-#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
-# Error loading design
-# End time: 21:29:07 on Aug 02,2025, Elapsed time: 0:00:01
-# Errors: 3, Warnings: 6
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of data_plexer_en.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim -gui work.top_60_tb
-# vsim -gui work.top_60_tb 
-# Start time: 21:32:02 on Aug 02,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# ** Error: (vsim-3033) Instantiation of 'clock_divider' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 19
-#         Searched libraries:
-#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
-# ** Error: (vsim-3033) Instantiation of 'timer_60' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 29
-#         Searched libraries:
-#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
-# Loading work.data_plexer_en
-# Error loading design
-# End time: 21:32:02 on Aug 02,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.top_60_tb
-# vsim -gui work.top_60_tb 
-# Start time: 22:44:49 on Aug 02,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clk_divider
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Error (suppressible): (vsim-3584) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(42): Module parameter 'DATA_WIDTH' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v
-# ** Error (suppressible): (vsim-3584) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(42): Module parameter 'SEL_WIDTH' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v
-# Error loading design
-# End time: 22:44:50 on Aug 02,2025, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 3
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.top_60_tb
-# vsim -gui work.top_60_tb 
-# Start time: 22:46:41 on Aug 02,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clk_divider
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Error (suppressible): (vsim-3584) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(42): Module parameter 'DATA_WIDTH' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v
-# ** Error (suppressible): (vsim-3584) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(42): Module parameter 'SEL_WIDTH' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v
-# Error loading design
-# End time: 22:46:42 on Aug 02,2025, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.top_60_tb
-# vsim -gui work.top_60_tb 
-# Start time: 22:47:41 on Aug 02,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clk_divider
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'data_en'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(108).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_en File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 41
-add wave -position insertpoint sim:/top_60_tb/*
-run
-run
-run
+vsim -gui work.timer_minsec_tb
+# vsim -gui work.timer_minsec_tb 
+# Start time: 11:51:53 on Aug 05,2025
+# Loading work.timer_minsec_tb
+# Loading work.clock_divider
+# Loading work.counter_nbit
+# Loading work.timer_minsec
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
+add wave -position insertpoint sim:/timer_minsec_tb/*
 run
 run
 run
 run
 # WARNING: No extended dataflow license exists
-run
-run
-run
-run
-run
 quit -sim
-# End time: 22:57:57 on Aug 02,2025, Elapsed time: 0:10:16
-# Errors: 0, Warnings: 3
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.clock_divider_tb
-# vsim -gui work.clock_divider_tb 
-# Start time: 23:04:02 on Aug 02,2025
-# Loading work.clock_divider_tb
+# End time: 11:55:56 on Aug 05,2025, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 5
+# Compile of timer_minsec.v was successful.
+# Compile of timer_minsec_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+vsim -gui work.timer_minsec_tb
+# vsim -gui work.timer_minsec_tb 
+# Start time: 11:56:05 on Aug 05,2025
+# Loading work.timer_minsec_tb
 # Loading work.clock_divider
 # Loading work.counter_nbit
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cntr'.  Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(4).
-#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 20
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v(20): [TFMPC] - Missing connection for port 'up_down'.
-add wave -position insertpoint sim:/clock_divider_tb/*
+# Loading work.timer_minsec
+# ** Error: (vsim-3033) Instantiation of 'counter_nbit_updown' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /timer_minsec_tb/UUT File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v Line: 22
+#         Searched libraries:
+#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
+# ** Error: (vsim-3033) Instantiation of 'counter_nbit_updown' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /timer_minsec_tb/UUT File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v Line: 31
+#         Searched libraries:
+#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
+# ** Error: (vsim-3033) Instantiation of 'counter_nbit_updown' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /timer_minsec_tb/UUT File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v Line: 40
+#         Searched libraries:
+#             C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/work
+# Error loading design
+# End time: 11:56:06 on Aug 05,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 2
+# Compile of timer_minsec.v was successful.
+# Compile of timer_minsec_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of timer_minsec.v was successful.
+# Compile of timer_minsec_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timer_minsec_tb
+# vsim -gui work.timer_minsec_tb 
+# Start time: 12:00:59 on Aug 05,2025
+# Loading work.timer_minsec_tb
+# Loading work.clock_divider
+# Loading work.counter_nbit
+# Loading work.timer_minsec
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
+add wave -position insertpoint sim:/timer_minsec_tb/*
+run
 run
 run
 # WARNING: No extended dataflow license exists
-run
 quit -sim
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# 5 compiles, 0 failed with no errors.
-# End time: 23:06:25 on Aug 02,2025, Elapsed time: 0:02:23
-# Errors: 0, Warnings: 10
-vsim -gui work.clock_divider_tb
-# vsim -gui work.clock_divider_tb 
-# Start time: 23:06:31 on Aug 02,2025
-# Loading work.clock_divider_tb
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cntr'.  Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(4).
-#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 20
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v(20): [TFMPC] - Missing connection for port 'up_down'.
-add wave -position insertpoint sim:/clock_divider_tb/*
-run
-run
-quit -sim
-# End time: 23:09:50 on Aug 02,2025, Elapsed time: 0:03:19
+# End time: 12:09:34 on Aug 05,2025, Elapsed time: 0:08:35
 # Errors: 0, Warnings: 4
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.clock_divider_tb
-# vsim -gui work.clock_divider_tb 
-# Start time: 23:09:59 on Aug 02,2025
-# Loading work.clock_divider_tb
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/uut/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 10
-add wave -position insertpoint sim:/clock_divider_tb/*
-add wave -position insertpoint sim:/clock_divider_tb/*
-run
-run
-run
-# ** Note: $stop    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider_tb.v(23)
-#    Time: 300 ns  Iteration: 0  Instance: /clock_divider_tb
-# Break in Module clock_divider_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider_tb.v line 23
-quit -sim
-# End time: 23:13:22 on Aug 02,2025, Elapsed time: 0:03:23
-# Errors: 0, Warnings: 3
-# Compile of clk_divider.v was successful.
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim -gui work.clock_divider_tb
-# vsim -gui work.clock_divider_tb 
-# Start time: 23:13:34 on Aug 02,2025
-# Loading work.clock_divider_tb
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(4).
-#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 22
-add wave -position insertpoint sim:/clock_divider_tb/*
-run
-run
-run
-run
-# ** Note: $stop    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider_tb.v(41)
-#    Time: 350 ns  Iteration: 0  Instance: /clock_divider_tb
-# Break in Module clock_divider_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider_tb.v line 41
-quit -sim
-# End time: 23:22:34 on Aug 02,2025, Elapsed time: 0:09:00
-# Errors: 0, Warnings: 4
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of timer_60_tb.v failed with 2 errors.
-# Compile of timer_60_tb.v failed with 2 errors.
-# Compile of timer_60_tb.v failed with 2 errors.
-# Compile of timer_60_tb.v was successful.
-vsim -gui work.timer_60_tb
-# vsim -gui work.timer_60_tb 
-# Start time: 23:30:12 on Aug 02,2025
-# Loading work.timer_60_tb
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(4).
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 22
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'LD'.  Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/UUT/LD File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v Line: 20
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v(20): [TFMPC] - Missing connection for port 'up_down'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'HD'.  Expected 6, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/UUT/HD File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v Line: 24
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v(24): [TFMPC] - Missing connection for port 'up_down'.
-add wave -position insertpoint sim:/timer_60_tb/*
-run
-run
-run
-run
-run
-# WARNING: No extended dataflow license exists
-quit -sim
-# Compile of counter_nbit.v was successful.
-# Compile of timer_60.v was successful.
+# Compile of timer_minsec.v was successful.
+# Compile of timer_minsec_tb.v was successful.
 # 2 compiles, 0 failed with no errors.
-# End time: 23:33:04 on Aug 02,2025, Elapsed time: 0:02:52
-# Errors: 0, Warnings: 14
-vsim -gui work.timer_60_tb
-# vsim -gui work.timer_60_tb 
-# Start time: 23:33:15 on Aug 02,2025
-# Loading work.timer_60_tb
+vsim -gui work.timer_minsec_tb
+# vsim -gui work.timer_minsec_tb 
+# Start time: 12:09:47 on Aug 05,2025
+# Loading work.timer_minsec_tb
 # Loading work.clock_divider
 # Loading work.counter_nbit
-# Loading work.timer_60
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cntr'.  Expected 7, found 6.
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 22
+# Loading work.timer_minsec
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 22
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v(22): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'LD'.  Expected 7, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/UUT/LD File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v Line: 20
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v(20): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v(20): [TFMPC] - Missing connection for port 'up_down'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'HD'.  Expected 7, found 5.
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/UUT/HD File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v Line: 24
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v(24): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60.v(24): [TFMPC] - Missing connection for port 'up_down'.
-add wave -position insertpoint sim:/timer_60_tb/*
-run
-run
-run
-# WARNING: No extended dataflow license exists
-quit -sim
-# End time: 23:35:30 on Aug 02,2025, Elapsed time: 0:02:15
-# Errors: 0, Warnings: 10
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui work.timer_60_tb
-# vsim -gui work.timer_60_tb 
-# Start time: 23:35:39 on Aug 02,2025
-# Loading work.timer_60_tb
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/UUT/sec_low_counter File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v Line: 29
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-add wave -position insertpoint sim:/timer_60_tb/*
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/UUT/sec_high_counter File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/UUT/min_low_counter File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_minsec.v Line: 49
+add wave -position insertpoint sim:/timer_minsec_tb/*
 run
 run
 run
@@ -303,31 +97,6 @@ run
 run
 run
 run
-# ** Note: $stop    : C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60_tb.v(44)
-#    Time: 1065 ns  Iteration: 0  Instance: /timer_60_tb
-# Break in Module timer_60_tb at C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/timer_60_tb.v line 44
-run
-quit -sim
-# End time: 23:39:21 on Aug 02,2025, Elapsed time: 0:03:42
-# Errors: 0, Warnings: 3
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui work.timer_60_tb
-# vsim -gui work.timer_60_tb 
-# Start time: 23:39:32 on Aug 02,2025
-# Loading work.timer_60_tb
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /timer_60_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-add wave -position insertpoint sim:/timer_60_tb/*
 run
 run
 run
@@ -338,24 +107,6 @@ run
 run
 run
 run
-quit -sim
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of clk_divider_tb.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim -gui work.timer_60_tb
-# End time: 23:42:52 on Aug 02,2025, Elapsed time: 0:03:20
-# Errors: 0, Warnings: 4
-# vsim -gui work.timer_60_tb 
-# Start time: 23:42:52 on Aug 02,2025
-# Loading work.timer_60_tb
-# Loading work.timer_60
-# Loading work.counter_nbit
-add wave -position insertpoint sim:/timer_60_tb/*
 run
 run
 run
@@ -363,316 +114,74 @@ run
 run
 run
 run
-restart
 run
 run
-quit -sim
-# End time: 00:06:11 on Aug 03,2025, Elapsed time: 0:23:19
-# Errors: 0, Warnings: 1
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of data_plexer_en.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Load canceled
-vlog counter_nbit.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:08:53 on Aug 03,2025
-# vlog -reportprogress 300 counter_nbit.v 
-# -- Compiling module counter_nbit
-# 
-# Top level modules:
-# 	counter_nbit
-# End time: 00:08:53 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog clock_divider.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:08:53 on Aug 03,2025
-# vlog -reportprogress 300 clock_divider.v 
-# ** Error: (vlog-7) Failed to open design unit file "clock_divider.v" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 00:08:53 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
-vlog timer_60.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:08:53 on Aug 03,2025
-# vlog -reportprogress 300 timer_60.v 
-# -- Compiling module timer_60
-# 
-# Top level modules:
-# 	timer_60
-# End time: 00:08:53 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog data_plexer_en.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:08:53 on Aug 03,2025
-# vlog -reportprogress 300 data_plexer_en.v 
-# -- Compiling module data_plexer_en
-# 
-# Top level modules:
-# 	data_plexer_en
-# End time: 00:08:53 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog top_60.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:08:53 on Aug 03,2025
-# vlog -reportprogress 300 top_60.v 
-# -- Compiling module top_60
-# 
-# Top level modules:
-# 	top_60
-# End time: 00:08:53 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog top_60_tb.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:08:53 on Aug 03,2025
-# vlog -reportprogress 300 top_60_tb.v 
-# -- Compiling module top_60_tb
-# 
-# Top level modules:
-# 	top_60_tb
-# End time: 00:08:53 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim top_60_tb
-# vsim top_60_tb 
-# Start time: 00:08:53 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Error (suppressible): (vsim-3584) top_60.v(14): Module parameter 'DIV_BY' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: top_60.v
-# Error loading design
-
-# End time: 00:08:54 on Aug 03,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 4
-vlog counter_nbit.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:09:01 on Aug 03,2025
-# vlog -reportprogress 300 counter_nbit.v 
-# -- Compiling module counter_nbit
-# 
-# Top level modules:
-# 	counter_nbit
-# End time: 00:09:02 on Aug 03,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog top_60_tb.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:11:11 on Aug 03,2025
-# vlog -reportprogress 300 top_60_tb.v 
-# -- Compiling module top_60_tb
-# 
-# Top level modules:
-# 	top_60_tb
-# End time: 00:11:11 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog counter_nbit.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:11:45 on Aug 03,2025
-# vlog -reportprogress 300 counter_nbit.v 
-# -- Compiling module counter_nbit
-# 
-# Top level modules:
-# 	counter_nbit
-# End time: 00:11:45 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog clock_divider.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:11:51 on Aug 03,2025
-# vlog -reportprogress 300 clock_divider.v 
-# ** Error: (vlog-7) Failed to open design unit file "clock_divider.v" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 00:11:51 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
-
-vlog clk_divider.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:12:01 on Aug 03,2025
-# vlog -reportprogress 300 clk_divider.v 
-# -- Compiling module clock_divider
-# 
-# Top level modules:
-# 	clock_divider
-# End time: 00:12:01 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog timer_60.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:12:08 on Aug 03,2025
-# vlog -reportprogress 300 timer_60.v 
-# -- Compiling module timer_60
-# 
-# Top level modules:
-# 	timer_60
-# End time: 00:12:08 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog data_plexer_en.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:12:13 on Aug 03,2025
-# vlog -reportprogress 300 data_plexer_en.v 
-# -- Compiling module data_plexer_en
-# 
-# Top level modules:
-# 	data_plexer_en
-# End time: 00:12:13 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog top_60.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:12:17 on Aug 03,2025
-# vlog -reportprogress 300 top_60.v 
-# -- Compiling module top_60
-# 
-# Top level modules:
-# 	top_60
-# End time: 00:12:17 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog top_60_tb.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 00:12:22 on Aug 03,2025
-# vlog -reportprogress 300 top_60_tb.v 
-# -- Compiling module top_60_tb
-# 
-# Top level modules:
-# 	top_60_tb
-# End time: 00:12:22 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim top_60_tb
-# vsim top_60_tb 
-# Start time: 00:12:26 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Error (suppressible): (vsim-3584) top_60.v(14): Module parameter 'DIV_BY' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /top_60_tb/uut File: top_60.v
-# Error loading design
-# End time: 00:12:27 on Aug 03,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 3
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# Compile of data_plexer_en.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim top_60_tb
-# vsim top_60_tb 
-# Start time: 00:13:23 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'clkdiv_inst'.  Expected 4, found 2.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 14
-# ** Error: (vsim-3063) Port 'enable' not found in the connected module (2nd connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 14
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'pause'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'rco_enable'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'timer_inst'.  Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/timer_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 23
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(23): [TFMPC] - Missing connection for port 'reset'.
-# ** Error (suppressible): (vsim-3389) Port 'low_digit' not found in the connected module (1st connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 31
-# ** Error (suppressible): (vsim-3389) Port 'high_digit' not found in the connected module (2nd connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 31
-# ** Error (suppressible): (vsim-3389) Port 'muxed_digits' not found in the connected module (3rd connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 31
-# ** Error (suppressible): (vsim-3389) Port 'en_high_digit' not found in the connected module (4th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 31
-# ** Error (suppressible): (vsim-3389) Port 'en_low_digit' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 31
-# Error loading design
-# End time: 00:13:23 on Aug 03,2025, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 9
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# Compile of data_plexer_en.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim work.top_60_tb
-# vsim work.top_60_tb 
-# Start time: 00:14:41 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'clkdiv_inst'.  Expected 4, found 2.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 14
-# ** Error: (vsim-3063) Port 'enable' not found in the connected module (2nd connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 14
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'pause'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'rco_enable'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'timer_inst'.  Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/timer_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 23
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(23): [TFMPC] - Missing connection for port 'reset'.
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'data_out'.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/mux_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 45
-# Error loading design
-# End time: 00:14:42 on Aug 03,2025, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 9
-# Compile of top_60.v was successful.
-vsim work.top_60_tb
-# vsim work.top_60_tb 
-# Start time: 00:15:17 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'clkdiv_inst'.  Expected 4, found 2.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 14
-# ** Error: (vsim-3063) Port 'enable' not found in the connected module (2nd connection).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 14
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'pause'.
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(14): [TFMPC] - Missing connection for port 'rco_enable'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'timer_inst'.  Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/timer_inst File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v Line: 21
-# ** Warning: (vsim-3722) C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/top_60.v(21): [TFMPC] - Missing connection for port 'reset'.
-# Error loading design
-# End time: 00:15:18 on Aug 03,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 9
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# Compile of data_plexer_en.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim work.top_60_tb
-# vsim work.top_60_tb 
-# Start time: 00:18:36 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
-# Loading work.clock_divider
-# Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-add wave -position insertpoint sim:/top_60_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 run
 run
 run
@@ -707,63 +216,25 @@ run
 run
 run
 quit -sim
-# End time: 00:22:21 on Aug 03,2025, Elapsed time: 0:03:45
-# Errors: 0, Warnings: 3
-# Compile of top_60.v was successful.
-# Compile of top_60_tb.v was successful.
-# Compile of counter_nbit.v was successful.
-# Compile of clk_divider.v was successful.
-# Compile of timer_60.v was successful.
-# Compile of timer_60_tb.v was successful.
-# Compile of data_plexer_en.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim work.top_60_tb
-# vsim work.top_60_tb 
-# Start time: 00:22:33 on Aug 03,2025
-# Loading work.top_60_tb
-# Loading work.top_60
+# End time: 12:31:46 on Aug 05,2025, Elapsed time: 0:21:59
+# Errors: 0, Warnings: 6
+# Compile of timer_minsec.v was successful with warnings.
+vsim -gui work.timer_minsec_tb
+# vsim -gui work.timer_minsec_tb 
+# Start time: 12:31:58 on Aug 05,2025
+# Loading work.timer_minsec_tb
 # Loading work.clock_divider
 # Loading work.counter_nbit
-# Loading work.timer_60
-# Loading work.data_plexer_en
+# Loading work.timer_minsec
 # ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/counter_nbit.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /top_60_tb/uut/clkdiv_inst/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
-add wave -position insertpoint sim:/top_60_tb/*
+#    Time: 0 ns  Iteration: 0  Instance: /timer_minsec_tb/CD_UUT/cntr File: C:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4/clk_divider.v Line: 12
+add wave -position insertpoint sim:/timer_minsec_tb/*
 run
 run
 run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# End time: 00:28:41 on Aug 03,2025, Elapsed time: 0:06:08
+quit -sim
+# End time: 12:56:45 on Aug 07,2025, Elapsed time: 48:24:47
 # Errors: 0, Warnings: 3

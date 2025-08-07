@@ -1,0 +1,104 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/2.4
+vDff
+Z0 !s110 1754597100
+!i10b 1
+!s100 kiR2WO2A>WNg[WAC0UX331
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlP?jOoX62P:_LojiUZjmn1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/super/OneDrive/Documents/GitHub/DigiCircuit/3.1
+w1754596779
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\Dff.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\Dff.v
+!i122 7
+L0 9 40
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1754597099.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\Dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\Dff.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@dff
+vwaveform_gen_behav
+R0
+!i10b 1
+!s100 N]LgjZdohi3B`Wn<FBUh82
+R1
+Ij0@1U:8Pli_WQmG7cd;[53
+R2
+R3
+w1754596977
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_behav.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_behav.v
+!i122 9
+L0 1 45
+R4
+r1
+!s85 0
+31
+Z7 !s108 1754597100.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_behav.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_behav.v|
+!i113 1
+R5
+R6
+vwaveform_gen_fsm_tb
+R0
+!i10b 1
+!s100 j@ag;JRKYBnAH`6hkYBWh0
+R1
+IQ4K_@XESa43MefT=T]nVc0
+R2
+R3
+w1754597073
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_fsm_tb.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_fsm_tb.v
+!i122 10
+L0 3 29
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_fsm_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_fsm_tb.v|
+!i113 1
+R5
+R6
+vwaveform_gen_struct
+R0
+!i10b 1
+!s100 4<:^fA087TCF=j`SJm>E[2
+R1
+I^:=2jU<FoJ_kS`QiZD][G2
+R2
+R3
+w1754596790
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_struct.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_struct.v
+!i122 8
+L0 1 36
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_struct.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\3.1\waveform_gen_struct.v|
+!i113 1
+R5
+R6

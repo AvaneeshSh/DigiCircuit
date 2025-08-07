@@ -170,6 +170,52 @@ R13
 !i113 1
 R8
 R9
+vtimer_minsec
+!s110 1754422309
+!i10b 1
+!s100 <?VK7EH7^7R78>7lNc5YO2
+R0
+Ik4;8mUMW[Y5a:T=6`l5YP1
+R1
+R2
+w1754422299
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec.v
+!i122 113
+L0 1 116
+R5
+r1
+!s85 0
+31
+!s108 1754422309.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec.v|
+!i113 1
+R8
+R9
+vtimer_minsec_tb
+!s110 1754420976
+!i10b 1
+!s100 ?daRF>d]m[GNV0mSI@NAc1
+R0
+IPMRJBm@_5Tj^V;TmV@kYd0
+R1
+R2
+w1754420968
+8C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec_tb.v
+FC:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec_tb.v
+!i122 112
+L0 5 59
+R5
+r1
+!s85 0
+31
+!s108 1754420976.000000
+!s107 C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\super\OneDrive\Documents\GitHub\DigiCircuit\2.4\timer_minsec_tb.v|
+!i113 1
+R8
+R9
 vtop_60
 R12
 !i10b 1
